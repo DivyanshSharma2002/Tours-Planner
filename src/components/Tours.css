@@ -1,0 +1,24 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 3rem;
+    border: 7px dashed blue;
+    border-width: 5px;
+    border-radius: 20px;
+    margin: 6vh;
+    padding: 1vh 5vw;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1300px;
+    margin:0 auto;
+}
